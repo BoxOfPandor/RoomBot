@@ -1,0 +1,26 @@
+{
+  "name": "epirooms-discord-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord pour surveiller l'occupation des salles EpiRooms",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": ["discord", "bot", "epirooms", "epitech"],
+  "author": "Votre Nom",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
